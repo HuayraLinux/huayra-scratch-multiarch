@@ -1,0 +1,16 @@
+huayra-scratch-multiarch
+---------------------------
+
+Scratch 2 esta basado en Adobe Air, este ultimo no tiene soporte
+para 64Bits en GNU/Linux y es software privativo. Las fuentes de
+scratch2 no están disponibles aún.
+
+Este paquete intenta ayudar a los usuarios instalando dependencias
+de i386 (multiarch) para poder instalar air+scratch2 
+
+Ojalá el equipo de Scratch logre dejar de usar software privativo o 
+tendremos que buscar una alternativa libre a ésta herramienta. En su
+defecto, construirla. 
+
+
+

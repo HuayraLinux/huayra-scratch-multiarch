@@ -1,0 +1,9 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    echo "Agregando symlink para gnome-keyring"
+    ln -s /usr/lib/i386-linux-gnu/libgnome-keyring.so.0 /usr/lib/libgnome-keyring.so.0
+fi
+
+#DEBHELPER#
