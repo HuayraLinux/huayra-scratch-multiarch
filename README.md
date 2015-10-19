@@ -33,6 +33,8 @@ Primero bajar e instalar Adobe Air:
 
     wget http://airdownload.adobe.com/air/lin/download/2.6/AdobeAIRInstaller.bin
 
+    ./AdobeAIRInstaller.bin
+    
 Luego bajar Scratch 2:
   
     wget https://scratch.mit.edu/scratchr2/static/sa/Scratch-440.air
