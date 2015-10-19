@@ -1,10 +1,10 @@
 Soporte de Huarya para instalar Scratch 2 
 
 Este paquete agrega dependencias desde i386 para poder instalar Scratch 2.
-Scratch esta hecho con Adobe Air, éste último solo funciona en 32Bits y no
-tiene soporte oficial de Adobe.
+Scratch esta hecho con Adobe Air, éste último solo funciona en 32Bits y **no
+tiene** soporte oficial de Adobe.
 
-Tenga en cuenta que tanto Air como Scratch 2 son sofware privativo ya que no 
+Tenga en cuenta que tanto Air como Scratch 2 son **sofware privativo** ya que no 
 es posible en principio acceder al código fuente.
 
 ¿Cómo usar este paquete?
@@ -32,6 +32,8 @@ de Scratch para su instalación.
 Primero bajar e instalar Adobe Air:
 
     wget http://airdownload.adobe.com/air/lin/download/2.6/AdobeAIRInstaller.bin
+
+Instalación:
 
     ./AdobeAIRInstaller.bin
     
