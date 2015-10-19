@@ -14,11 +14,11 @@ Por lo tanto debe agregar la arquitetura i386 al gestor de paquetes dpkg para
 poder instalar las dependencias de 32bits en su sistema de 64bits. 
 Es lo que en debian se denomina como multiarch.
 
-  sudo dpkg --add-architecture i386
-
-  sudo apt-get update
+    sudo dpkg --add-architecture i386
   
-  sudo apt-get install huayra-scratch-multiarch
+    sudo apt-get update
+  
+    sudo apt-get install huayra-scratch-multiarch
 
 Hay 2 librerías libhal1 y libhal-storge1 que fueron agregadas al repositorio
 de Huayra porque ésta aplicacion las necesita para poder realizar la instalación.
@@ -29,8 +29,15 @@ por lo tanto no deberían usarse mas.
 Una vez que pudo instalar éste paquete, puede seguir las instruciones del sitio
 de Scratch para su instalación.
 
-Primero bajar e instalar Adobe Air, luego bajar Scratch 2 e instalarlo con 
-la herramienta "Adobe Air Application Installer" que deberia estar en su menu de accesorios.
+Primero bajar e instalar Adobe Air:
+
+    wget http://airdownload.adobe.com/air/lin/download/2.6/AdobeAIRInstaller.bin
+
+Luego bajar Scratch 2:
+  
+    wget https://scratch.mit.edu/scratchr2/static/sa/Scratch-440.air
+  
+Finalmente instalarlo con la herramienta "Adobe Air Application Installer" que debería estar en su menu de accesorios.
 
 De acuerdo a la Ley de Murphy tienen grandes chances de que Scratch2 funcione! 
 
