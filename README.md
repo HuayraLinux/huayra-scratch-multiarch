@@ -17,6 +17,8 @@ Es lo que en debian se denomina como multiarch.
   sudo dpkg --add-architecture i386
 
   sudo apt-get update
+  
+  sudo apt-get install huayra-scratch-multiarch
 
 Hay 2 librerías libhal1 y libhal-storge1 que fueron agregadas al repositorio
 de Huayra porque ésta aplicacion las necesita para poder realizar la instalación.
