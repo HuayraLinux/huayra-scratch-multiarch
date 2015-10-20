@@ -35,6 +35,7 @@ Primero bajar e instalar Adobe Air:
 
 Instalación:
 
+    chmod +x AdobeAIRInstaller.bin
     ./AdobeAIRInstaller.bin
     
 Luego bajar Scratch 2:
