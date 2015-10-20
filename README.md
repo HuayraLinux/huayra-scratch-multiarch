@@ -33,7 +33,7 @@ Primero bajar e instalar Adobe Air:
 
     wget http://airdownload.adobe.com/air/lin/download/2.6/AdobeAIRInstaller.bin
 
-Instalación:
+Instalación (cambiamos los permisos para que quede ejecutable con chmod y luego lo ejecutamos):
 
     chmod +x AdobeAIRInstaller.bin
     ./AdobeAIRInstaller.bin
